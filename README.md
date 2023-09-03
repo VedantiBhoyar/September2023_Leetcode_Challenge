@@ -1,5 +1,6 @@
 <div align="center">
-  <img src="https://leetcode.com/static/images/LeetCode_logo.png" alt="LeetCode Logo" width="200">
+  ![image](https://github.com/VedantiBhoyar/September2023_Leetcode_Challenge/assets/71519458/cd0f6afd-3a46-4fc5-ac93-c473623d51fa)
+
 </div>
 
 # LeetCode September Challenge
@@ -12,8 +13,8 @@
 </p>
 
 <div align="center">
-   <img src="https://img.shields.io/badge/Language-Java-orange" alt="Language: Java">
    <a href="https://www.leetcode.com/vedantibhoyar" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="vedantibhoyar" height="30" width="40" /></a>
+  <img src="https://img.shields.io/badge/Language-Java-orange" alt="Language: Java">
 </div>
 
 
