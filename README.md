@@ -13,8 +13,9 @@
 
 <div align="center">
    <img src="https://img.shields.io/badge/Language-Java-orange" alt="Language: Java">
+   <a href="https://www.leetcode.com/vedantibhoyar" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="vedantibhoyar" height="30" width="40" /></a>
 </div>
- [![LeetCode Profile](https://img.shields.io/badge/LeetCode-Profile-yellow?logo=leetcode)](https://leetcode.com/vedantibhoyar/)
+
 
 ---
 
