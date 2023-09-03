@@ -32,9 +32,9 @@ The repository is organized as follows:
 
 Here's a list of the problems I've tackled during the challenge:
 
-- [Day 1: Counting Bits](Day-1/): Topic: Bit Manipulation .
-- [Day 2: Extra Characters in a String](Day-2/): Topic: Dynamic Programming/Tries .
-- [Day 3: Unique Paths](Day-3/): Topic: Dynamic Programming.
+- [Day 1: Counting Bits](Day1/): Topic: Bit Manipulation .
+- [Day 2: Extra Characters in a String](Day2/): Topic: Dynamic Programming/Tries .
+- [Day 3: Unique Paths](Day3/): Topic: Dynamic Programming.
 - ...
 
 Each solution includes detailed explanations, code snippets, and any necessary setup instructions.
