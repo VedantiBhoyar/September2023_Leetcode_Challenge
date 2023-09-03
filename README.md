@@ -8,14 +8,12 @@
   <a href="#about-the-challenge">About the Challenge</a> •
   <a href="#repository-structure">Repository Structure</a> •
   <a href="#solutions">Solutions</a> •
-  <a href="#how-to-run">How to Run</a> •
   <a href="#contributing">Contributing</a> •
-  <a href="#license">License</a>
 </p>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Language-Python-blue" alt="Language: Python">
-  <img src="https://img.shields.io/github/license/yourusername/leetcode-september-challenge" alt="License: MIT">
+   <img src="https://img.shields.io/badge/Language-Java-orange" alt="Language: Java">
+  <img src="https://img.shields.io/github/license/VedantiBhoyar/leetcode-september-challenge" alt="License: MIT">
 </div>
 
 ---
@@ -40,17 +38,11 @@ Here's a list of the problems I've tackled during the challenge:
 
 Each solution includes detailed explanations, code snippets, and any necessary setup instructions.
 
-## How to Run
-
-To run the solutions, navigate to the specific day's directory and follow the provided instructions. You may need to have a specific programming language or framework installed, so make sure to check the prerequisites.
 
 ## Contributing
 
 Contributions are encouraged! If you have better solutions or suggestions for improving existing solutions, please feel free to open a pull request. Together, we can create an even better resource for the LeetCode community.
 
-## License
-
-This repository is licensed under the [MIT License](LICENSE). You are welcome to use the code and solutions as a reference for your own LeetCode practice.
 
 ---
 
