@@ -54,5 +54,5 @@ Contributions are encouraged! If you have better solutions or suggestions for im
 </p>
 
 <div align="center">
-  <sub>Built with ❤️ by [Your Name](https://github.com/VedantiBhoyar)</sub>
+  <sub>Built with ❤️ by [Vedanti Bhoyar](https://github.com/VedantiBhoyar)</sub>
 </div>
