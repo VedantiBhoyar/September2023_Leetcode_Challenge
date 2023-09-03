@@ -1,7 +1,6 @@
-<div align="center">
+
   ![image](https://github.com/VedantiBhoyar/September2023_Leetcode_Challenge/assets/71519458/cd0f6afd-3a46-4fc5-ac93-c473623d51fa)
 
-</div>
 
 # LeetCode September Challenge
 
