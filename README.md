@@ -34,7 +34,7 @@ Here's a list of the problems I've tackled during the challenge:
 
 - [Day 1: Problem Name](Day-1/): .
 - [Day 2: Problem Name](Day-2/): .
-- [Day 3: Problem Name](Day-3/): .
+- [Day 3: Unique Paths](Day-3/): .
 - ...
 
 Each solution includes detailed explanations, code snippets, and any necessary setup instructions.
