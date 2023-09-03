@@ -32,8 +32,9 @@ The repository is organized as follows:
 
 Here's a list of the problems I've tackled during the challenge:
 
-- [Day 1: Problem Name](Day-1/): A brief description of the problem and my solution.
-- [Day 2: Problem Name](Day-2/): A brief description of the problem and my solution.
+- [Day 1: Problem Name](Day-1/): .
+- [Day 2: Problem Name](Day-2/): .
+- [Day 3: Problem Name](Day-2/): .
 - ...
 
 Each solution includes detailed explanations, code snippets, and any necessary setup instructions.
@@ -53,5 +54,5 @@ Contributions are encouraged! If you have better solutions or suggestions for im
 </p>
 
 <div align="center">
-  <sub>Built with ❤️ by [Your Name](https://github.com/yourusername)</sub>
+  <sub>Built with ❤️ by [Your Name](https://github.com/VedantiBhoyar)</sub>
 </div>
