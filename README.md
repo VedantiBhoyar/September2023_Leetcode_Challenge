@@ -13,8 +13,8 @@
 
 <div align="center">
    <img src="https://img.shields.io/badge/Language-Java-orange" alt="Language: Java">
-  [![LeetCode Profile](https://img.shields.io/badge/LeetCode-Profile-yellow?logo=leetcode)](https://leetcode.com/vedantibhoyar/)
 </div>
+ [![LeetCode Profile](https://img.shields.io/badge/LeetCode-Profile-yellow?logo=leetcode)](https://leetcode.com/vedantibhoyar/)
 
 ---
 
