@@ -13,7 +13,7 @@
 
 <div align="center">
    <img src="https://img.shields.io/badge/Language-Java-orange" alt="Language: Java">
-  <img src="https://img.shields.io/github/license/VedantiBhoyar/leetcode-september-challenge" alt="License: MIT">
+  [![LeetCode Profile](https://img.shields.io/badge/LeetCode-Profile-yellow?logo=leetcode)](https://leetcode.com/vedantibhoyar/)
 </div>
 
 ---
@@ -34,7 +34,7 @@ Here's a list of the problems I've tackled during the challenge:
 
 - [Day 1: Problem Name](Day-1/): .
 - [Day 2: Problem Name](Day-2/): .
-- [Day 3: Problem Name](Day-2/): .
+- [Day 3: Problem Name](Day-3/): .
 - ...
 
 Each solution includes detailed explanations, code snippets, and any necessary setup instructions.
@@ -49,10 +49,8 @@ Contributions are encouraged! If you have better solutions or suggestions for im
 
 <p align="center">
   <a href="https://github.com/yourusername" target="_blank">
-    <img src="https://img.shields.io/github/followers/yourusername?style=social" alt="Follow me on GitHub">
+    <img src="https://img.shields.io/github/followers/VedantiBhoyar?style=social" alt="Follow me on GitHub">
   </a>
 </p>
 
-<div align="center">
-  <sub>Built with ❤️ by [Vedanti Bhoyar](https://github.com/VedantiBhoyar)</sub>
-</div>
+
