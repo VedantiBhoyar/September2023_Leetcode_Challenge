@@ -1,24 +1,38 @@
 class Solution {
-     public int func(int idx, String s, Set<String> st, int[] dp) {
-        if (idx == s.length())
+     public int func(int index, String s,HashMap<String,Boolean>map
+     , int[] dp) {
+        // base Condition
+        if (index == s.length())
             return 0;
-        if (dp[idx] != -1)
-            return dp[idx];
-        int res = Integer.MAX_VALUE;
-        for (int j = idx; j < s.length(); ++j) {
-            String str = s.substring(idx, j + 1);
-            if (st.contains(str))
-                res = Math.min(res, 0 + func(j + 1, s, st, dp));
-            else
-                res = Math.min(res, j - idx + 1 + func(j + 1, s, st, dp));
+        
+        // Already Computed
+        if (dp[index] != -1)
+            return dp[index];
+
+        int res =s.length();
+        String curr="";
+        for (int j = index; j < s.length(); j++) {
+            curr = s.substring(index, j + 1);
+
+            int extraCount=curr.length();
+            // If current string present
+            if (map.containsKey(curr))
+               extraCount=0;
+
+            // Recursive call for remaining String
+           extraCount+=func(j+1,s,map,dp);
+           res=Math.min(res,extraCount);
         }
-        return dp[idx] = res;
+        return dp[index] = res;
     }
 
     public int minExtraChar(String s, String[] dictionary) {
         int[] dp = new int[s.length() + 1];
         Arrays.fill(dp, -1);
-        Set<String> st = new HashSet<>(Arrays.asList(dictionary));
-        return func(0, s, st, dp);
+        HashMap<String,Boolean>map=new HashMap<>();
+        for(String str:dictionary){
+            map.put(str,true);
+        }
+        return func(0, s,map, dp);
     }
 }
