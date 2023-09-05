@@ -36,6 +36,7 @@ Here's a list of the problems I've tackled during the challenge:
 - [Day 2: Extra Characters in a String](Day2/): Topic: Dynamic Programming/Tries .
 - [Day 3: Unique Paths](Day3/): Topic: Dynamic Programming.
 - [Day 4: Linked List Cycle ](Day4/): Topic: LinkedList (Floyd Cycle).
+- [Day 5: Copy List with Random Pointer ](Day5/): Topic: LinkedList
 - ...
 
 Each solution includes detailed explanations, code snippets, and any necessary setup instructions.
