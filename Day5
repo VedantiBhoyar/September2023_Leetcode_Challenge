@@ -1,0 +1,55 @@
+/*
+// Definition for a Node.
+class Node {
+    int val;
+    Node next;
+    Node random;
+
+    public Node(int val) {
+        this.val = val;
+        this.next = null;
+        this.random = null;
+    }
+}
+*/
+
+class Solution {
+    public Node copyRandomList(Node head) {
+         if (head == null) {
+            return null;
+        }
+        Node current = head;
+        while (current != null) {
+            Node newNode = new Node(current.val);
+            newNode.next = current.next;
+            current.next = newNode;
+            current = newNode.next;
+        }
+
+        // Step 2: Set random pointers of the new nodes
+        current = head;
+        while (current != null) {
+            if (current.random != null) {
+                current.next.random = current.random.next;
+            }
+            current = current.next.next;
+        }
+
+        // Step 3: Separate the new list from the original list
+        Node newHead = head.next;
+        current = head;
+        while (current != null) {
+            Node temp = current.next;
+            current.next = temp.next;
+            if (temp.next != null) {
+                temp.next = temp.next.next;
+            }
+            current = current.next;
+        }
+
+        return newHead;
+        
+    }
+}
+
+ 
