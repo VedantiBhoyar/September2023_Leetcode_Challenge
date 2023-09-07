@@ -38,6 +38,7 @@ Here's a list of the problems I've tackled during the challenge:
 - [Day 4: Linked List Cycle ](Day4/): Topic: LinkedList (Floyd Cycle).
 - [Day 5: Copy List with Random Pointer ](Day5/): Topic: LinkedList
 - [Day 6:  Split Linked List in Parts ](Day6/): Topic: LinkedList
+- [Day 7:  Reverse Linked List II](Day7/): Topic: LinkedList
 - ...
 
 Each solution includes detailed explanations, code snippets, and any necessary setup instructions.
