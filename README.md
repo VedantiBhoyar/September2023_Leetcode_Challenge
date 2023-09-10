@@ -40,6 +40,7 @@ Here's a list of the problems I've tackled during the challenge:
 - [Day 6:  Split Linked List in Parts ](Day6/): Topic: LinkedList
 - [Day 7:  Reverse Linked List II](Day7/): Topic: LinkedList
 - [Day 8:  Pascal's Triangle](Day8/): Topic:Arrays,Dynamic Programming
+- [Day 9: Combination Sum IV](Day9/): Topic:Arrays,Dynamic Programming
 - ...
 
 Each solution includes detailed explanations, code snippets, and any necessary setup instructions.
