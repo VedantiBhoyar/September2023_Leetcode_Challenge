@@ -1,0 +1,38 @@
+class Solution {
+    public int countOrders(int n) {
+       long res=1,mod=(long)1000000007;
+       for(int i=1;i<=n;i++){
+           res=res*( 2*i-1)*i%mod;
+       }
+       return (int)res;
+    }
+}
+
+// for n there will be 2n pairs
+
+// for n=1   P1 D1
+
+//  You can place P2 in three places -P1-D1-
+//  now you can place D2 in three position  P2-P1-D1-
+
+//  P1 P2 D1-
+//  now you can place D2 in 2 postions P1 P2-D1-
+
+//  P1 D1 P2-
+//  now you can place D2 in 1 postion
+
+// 2n-1 + 2n-2 +  2n-3 + .........
+// sn=n/2[2a+(n-1)/d].......general formula for sum
+// =2n-1/2[2(2n-1)+ (2n-1-1)(-1)]
+// =2n-1/2 [4n-2-2n+2]
+// =n(2n-1)*res
+
+
+// for n=2   P1 P2 D1 D2
+//           P2 P1 D2 D1
+//           P1 D1 P2 D2
+//           P2 D2 P1 D1
+//           P2 P1 D1 D2
+//           P1 P2 D2 D1
+
+          
