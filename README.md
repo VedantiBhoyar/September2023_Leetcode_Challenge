@@ -42,6 +42,7 @@ Here's a list of the problems I've tackled during the challenge:
 - [Day 8:  Pascal's Triangle](Day8/): Topic:Arrays,Dynamic Programming
 - [Day 9: Combination Sum IV](Day9/): Topic:Arrays,Dynamic Programming
 - [Day 10: Count All Valid Pickup and Delivery Options](Day9/): Topic:Math,Dynamic Programming,Combinatorics
+- [Day 11: Group the People Given the Group Size They Belong To](Day11/): Topic: Arrays,HashTable
 - ...
 
 Each solution includes detailed explanations, code snippets, and any necessary setup instructions.
