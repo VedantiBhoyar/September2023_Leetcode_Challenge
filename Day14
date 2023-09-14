@@ -1,0 +1,29 @@
+class Solution {
+    public List<String> findItinerary(List<List<String>> tickets) {
+        HashMap<String,List<String>>adjacency=new HashMap<>();
+        List<String>res=new ArrayList<>();
+
+        for(List<String>ticket:tickets){
+            String from=ticket.get(0);
+            String destination=ticket.get(1);
+           
+           adjacency.putIfAbsent(from,new ArrayList<>());
+           adjacency.get(from).add(destination);
+        }
+        for(String key:adjacency.keySet())
+           Collections.sort(adjacency.get(key));
+        
+        dfs("JFK",adjacency,res);
+        return res;
+    }
+    void dfs(String str, HashMap<String,List<String>>adjacency,List<String>res){
+        List<String>list=adjacency.get(str);
+
+        while(list!=null && !list.isEmpty()){
+            String next_destination=list.remove(0);
+            dfs(next_destination,adjacency,res);
+        }
+        res.add(0,str);
+        
+    }
+}
