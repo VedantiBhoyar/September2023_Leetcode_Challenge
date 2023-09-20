@@ -51,7 +51,7 @@ Here's a list of the problems I've tackled during the challenge:
 -
 -
 -
--[Day 20: Minimum Operations to Reduce X to Zero](Day20/): Topic: Arrays,Sliding Window
+- [Day 20: Minimum Operations to Reduce X to Zero](Day20/): Topic: Arrays,Sliding Window
 - ...
 
 Each solution includes detailed explanations, code snippets, and any necessary setup instructions.
