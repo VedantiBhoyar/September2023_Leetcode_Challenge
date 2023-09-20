@@ -46,6 +46,12 @@ Here's a list of the problems I've tackled during the challenge:
 - [Day 12:Minimum Deletions to Make Character Frequencies Unique](Day12/): Topic:String,HashTable
 - [Day 13:Candy](Day13/): Topic :Arrays,Dynamic Programming
 - [Day 14:Reconstruct Itinerary](Day14/) : Topic : Graph,DFS,HashMap
+- 
+-
+-
+-
+-
+-[Day 20: Minimum Operations to Reduce X to Zero](Day20/): Topic: Arrays,Sliding Window
 - ...
 
 Each solution includes detailed explanations, code snippets, and any necessary setup instructions.
