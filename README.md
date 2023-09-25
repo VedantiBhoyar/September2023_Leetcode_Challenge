@@ -46,15 +46,23 @@ Here's a list of the problems I've tackled during the challenge:
 - [Day 12:Minimum Deletions to Make Character Frequencies Unique](Day12/): Topic:String,HashTable
 - [Day 13:Candy](Day13/): Topic :Arrays,Dynamic Programming
 - [Day 14:Reconstruct Itinerary](Day14/) : Topic : Graph,DFS,HashMap
-- 
--
--
+- [Day 15]
+- [Day 16]
+- [Day 17]
 - [Day 18: The K Weakest Rows in a Matrix](Day18/): Topic:Arrays,Matrix
 - [Day 19: Find the Duplicate Number](Day19/): Topic:Binary Search
 - [Day 20: Minimum Operations to Reduce X to Zero](Day20/): Topic: Arrays,Sliding Window
-- 
+- [Day 21]
 - [Day 22:  Is Subsequence](Day22/): Topic: String
-- ...
+- [Day 23]
+- [Day 24]
+- [Day 25]
+- [Day 26]
+- [Day 27]
+- [Day 28]
+- [Day 29]
+- [Day 30]
+
 
 Each solution includes detailed explanations, code snippets, and any necessary setup instructions.
 
