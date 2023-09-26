@@ -54,7 +54,7 @@ Here's a list of the problems I've tackled during the challenge:
 - [Day 20: Minimum Operations to Reduce X to Zero](Day20/): Topic: Arrays,Sliding Window
 - [Day 21]
 - [Day 22:  Is Subsequence](Day22/): Topic: String
-- [Day 23]
+- [Day 23 :  Longest String Chain](Day23/): Topic: String,HashTable
 - [Day 24 : Champagne Tower](Day24/): Topic: Dynamic Programming
 - [Day 25 : Find the Difference](Day25/): Topic : String,Bit-Manipulation
 - [Day 26 : Remove Duplicate Letters](Day26/): Topic : String,Stack
