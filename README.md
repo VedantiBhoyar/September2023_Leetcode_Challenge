@@ -57,7 +57,7 @@ Here's a list of the problems I've tackled during the challenge:
 - [Day 23]
 - [Day 24]
 - [Day 25 : Find the Difference](Day25/): Topic : String,Bit-Manipulation
-- [Day 26]
+- [Day 26 : Remove Duplicate Letters](Day26/): Topic : String,Stack
 - [Day 27]
 - [Day 28]
 - [Day 29]
