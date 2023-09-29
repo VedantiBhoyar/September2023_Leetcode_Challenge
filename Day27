@@ -1,0 +1,33 @@
+class Solution {
+    public String decodeAtIndex(String s, int k) {
+
+        long decodedLength=0;
+        // Calculating the length of decoded string
+        for(char ch:s.toCharArray()){
+
+            if(Character.isDigit(ch))
+              decodedLength *= (ch-'0');
+            else
+              decodedLength++;
+
+        }
+        
+        // Traversing the string in reverse word
+        for(int i=s.length()-1;i>=0;i--){
+            char curr=s.charAt(i);
+
+            if(Character.isDigit(curr)){
+                decodedLength /= (curr-'0');
+                k %= decodedLength;
+            }
+            else{
+                if(k==0 || decodedLength==k)
+                  return String.valueOf(curr);
+                decodedLength--;
+            }
+
+        }
+        return "";
+        
+    }
+}
