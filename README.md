@@ -58,7 +58,7 @@ Here's a list of the problems I've tackled during the challenge:
 - [Day 24 : Champagne Tower](Day24/): Topic: Dynamic Programming
 - [Day 25 : Find the Difference](Day25/): Topic : String,Bit-Manipulation
 - [Day 26 : Remove Duplicate Letters](Day26/): Topic : String,Stack
-- [Day 27 : Decoded String at Index](Day27/): Topic :
+- [Day 27 : Decoded String at Index](Day27/): Topic : String
 - [Day 28 : Sort Array By Parity](Day28/): Topic : Arrays
 - [Day 29 : Monotonic Array](Day29/) Topic:Array
 - [Day 30]
