@@ -60,7 +60,7 @@ Here's a list of the problems I've tackled during the challenge:
 - [Day 26 : Remove Duplicate Letters](Day26/): Topic : String,Stack
 - [Day 27 : Decoded String at Index](Day27/): Topic :
 - [Day 28]
-- [Day 29]
+- [Day 29 : Monotonic Array](Day29/) Topic:Array
 - [Day 30]
 
 
