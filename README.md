@@ -52,7 +52,7 @@ Here's a list of the problems I've tackled during the challenge:
 - [Day 18: The K Weakest Rows in a Matrix](Day18/): Topic:Arrays,Matrix
 - [Day 19: Find the Duplicate Number](Day19/): Topic:Binary Search
 - [Day 20: Minimum Operations to Reduce X to Zero](Day20/): Topic: Arrays,Sliding Window
-- [Day 21 :  Median of Two Sorted Arrays](Day21/): Topic :
+- [Day 21 :  Median of Two Sorted Arrays](Day21/): Topic : Arrays
 - [Day 22:  Is Subsequence](Day22/): Topic: String
 - [Day 23 :  Longest String Chain](Day23/): Topic: String,HashTable
 - [Day 24 : Champagne Tower](Day24/): Topic: Dynamic Programming
