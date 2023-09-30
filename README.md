@@ -47,7 +47,7 @@ Here's a list of the problems I've tackled during the challenge:
 - [Day 13:Candy](Day13/): Topic :Arrays,Dynamic Programming
 - [Day 14:Reconstruct Itinerary](Day14/) : Topic : Graph,DFS,HashMap
 - [Day 15: Path With Minimum Effort](Day15/) : Topic :
-- [Day 16 : Min Cost to Connect All Points](Day16/) : Topic :
+- [Day 16 : Min Cost to Connect All Points](Day16/) : Topic : MST: Prims's Algorithm
 - [Day 17 : Shortest Path Visiting All Nodes](Day17/): Topic :
 - [Day 18: The K Weakest Rows in a Matrix](Day18/): Topic:Arrays,Matrix
 - [Day 19: Find the Duplicate Number](Day19/): Topic:Binary Search
