@@ -61,7 +61,7 @@ Here's a list of the problems I've tackled during the challenge:
 - [Day 27 : Decoded String at Index](Day27/): Topic : String
 - [Day 28 : Sort Array By Parity](Day28/): Topic : Arrays
 - [Day 29 : Monotonic Array](Day29/) Topic:Array
-- [Day 30 : 132 Pattern](Day30/) Topic :
+- [Day 30 : 132 Pattern](Day30/) Topic : Stack
 
 
 Each solution includes detailed explanations, code snippets, and any necessary setup instructions.
