@@ -1,0 +1,57 @@
+// Solution 1:
+// Prims's Algorithm 
+
+class Solution {
+    class Pair{
+        int node;
+        int distance;
+        Pair(int node,int distance){
+            this.node=node;
+            this.distance=distance;
+        }
+    }
+    public int minCostConnectPoints(int[][] points) {
+        ArrayList<ArrayList<Pair>>adj=new ArrayList<>();
+        int n=points.length;
+
+        for(int i=0;i<n;i++)
+          adj.add(new ArrayList<>());
+
+        for(int i=0;i<n;i++){
+           for(int j=i+1;j<n;j++){
+               int u=i;
+               int v=j;
+               int w=Math.abs(points[i][0]-points[j][0])+
+                     Math.abs(points[i][1]-points[j][1]);
+               adj.get(u).add(new Pair(v,w));
+               adj.get(v).add(new Pair(u,w));
+           }
+        }
+        int visited[]=new int[n];
+        PriorityQueue<Pair>priority=new PriorityQueue<>( (x,y)-> x.distance - y.distance);
+        priority.add(new Pair(0,0));
+        int ans=0;
+        
+        while(!priority.isEmpty()){
+            int Node=priority.peek().node;
+            int weight=priority.peek().distance;
+            priority.remove();
+
+            if(visited[Node]==1)
+             continue;
+            visited[Node]=1;
+            ans+=weight;
+
+            for(Pair it:adj.get(Node)){
+                  int adjNode=it.node;
+                  int adjWeight=it.distance;
+                  if(visited[adjNode]==0)
+                   priority.add(new Pair(adjNode,adjWeight));
+            }
+        }
+        return ans;
+        
+    }
+}
+
+
