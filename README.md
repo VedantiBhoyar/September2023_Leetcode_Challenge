@@ -3,6 +3,9 @@
 
 
 
+![Screenshot (14)](https://github.com/VedantiBhoyar/September2023_Leetcode_Challenge/assets/71519458/3186c2be-6e5d-421f-a2f1-e5028df00920)
+
+
 <p align="center">
   <a href="#about-the-challenge">About the Challenge</a> •
   <a href="#repository-structure">Repository Structure</a> •
